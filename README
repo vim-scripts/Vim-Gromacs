@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4010
+
+Vim-Gromacs is a plugin to easy manipulate Gromacs (http://www.gromacs.org/) files in Vim.
+
+It contains a set of files to enable syntax highlighting for Gromacs files.
+It works with mdp, gro, top/itp, xvg and ndx files.
+
+It contains also macros to comment/uncomment easily selections of a file and to jump to different sections ([...]) of a file :
+Shortcuts for the macros:
+]; -- Comment the selection
+]: -- Uncomment the selection
+], -- Jump to the next section
+]! -- Jump to the previous section
+
+A section is defined by '[....]'
+
+You can follow it on GitHub: https://github.com/HubLot/vim-gromacs
